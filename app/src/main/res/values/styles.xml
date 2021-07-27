@@ -1,0 +1,75 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="word_title"></style>
+
+
+    <string-array name="Minspeed">
+        <item>Choose Minimum Speed</item>
+        <item><FONT COLOR="#006600"><b>6km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>7km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>8km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>9km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>10km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>11km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>12km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>13km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>14km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>15km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>16km/h</b></FONT></item>
+
+    </string-array>
+    <string-array name="Maxspeed">
+        <item>Choose Maximum Speed</item>
+        <item><FONT COLOR="#006600"><b>6km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>7km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>8km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>9km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>10km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>11km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>12km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>13km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>14km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>15km/h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>16km/h</b></FONT></item>
+
+    </string-array>
+
+    <string-array name="theme">
+        <item>Run Type</item>
+        <item><FONT COLOR="#006600"><b>Beginner</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Classic</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Run &amp; Drinks</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Long Run</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Intervals</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Trial / Nature</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Plogging</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>Other</b></FONT></item>
+
+
+    </string-array>
+    <string-array name="approximate_duration">
+        <item>Approximate duration</item>
+        <item><FONT COLOR="#006600"><b>10 min</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>20 min</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>30 min</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>40 min</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>50 min</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h10</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h20</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h30</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h40</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>1h50</b></FONT></item>
+        <item><FONT COLOR="#006600"><b>2h</b></FONT></item>
+
+    </string-array>
+
+
+</resources>

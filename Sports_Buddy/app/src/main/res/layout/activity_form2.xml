@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.sports_buddy.FormActivity">
+
+        <TextView
+            android:textColor="#EB5D2A"
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/create_a_run"
+            android:textSize="36sp" />
+
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:id="@+id/titleedit"
+            android:layout_marginTop="144dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="@string/title"
+            android:textColorHint="#000000"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:textColorHint="#000000"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:id="@+id/dateedit"
+            android:autofillHints=""
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/date"
+            android:inputType="date" />
+
+
+        <EditText
+            android:textColorHint="#000000"
+            android:background="@drawable/edittext"
+            android:hint="Time"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:id="@+id/timePicker1"
+            android:focusable="false"
+            android:importantForAutofill="no" />
+
+
+        <EditText
+            android:gravity="center"
+            android:textColorHint="#000000"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:id="@+id/locationedit"
+            android:layout_marginLeft="5dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/choose_a_location" />
+
+
+
+        <Spinner
+            android:textAlignment="center"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:id="@+id/spinnermax"
+
+            />
+
+        <Spinner
+            android:textAlignment="center"
+            android:background="@drawable/edittext"
+            android:id="@+id/spinnermin"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:gravity="center" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/runtext"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Run Length"
+            android:textSize="24sp" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/progresstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/_1km"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:max="50" />
+
+
+        <Spinner
+            android:background="@drawable/edittext"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:id="@+id/spinnertheme"
+            />
+
+
+        <Spinner
+            android:background="@drawable/edittext"
+            android:textAlignment="center"
+            android:id="@+id/spinnerduration"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColorHint="#000000"
+            android:hint="Description"
+            android:background="@drawable/edittext"
+            android:id="@+id/descriptionedit"
+            android:layout_width="229dp"
+            android:layout_height="45dp"
+            android:autofillHints=""
+            android:singleLine="false" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/Additional_Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/additional_information"
+            android:textSize="24sp" />
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <CheckBox
+                android:textColor="#FFFFFF"
+                android:id="@+id/check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/flexible_start_5_10mn" />
+
+
+            <CheckBox
+                android:textColor="#FFFFFF"
+                android:id="@+id/check2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check1"
+                android:layout_marginTop="20dp"
+                android:text="@string/place_to_change" />
+
+
+            <CheckBox
+                android:textColor="#FFFFFF"
+                android:id="@+id/check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check2"
+                android:layout_marginTop="20dp"
+                android:text="@string/place_to_leave_your_stuff" />
+
+
+            <CheckBox
+                android:textColor="#FFFFFF"
+                android:id="@+id/check4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check3"
+                android:layout_marginTop="20dp"
+                android:text="@string/place_to_Shower" />
+
+
+            <CheckBox
+                android:textColor="#FFFFFF"
+                android:id="@+id/check5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check4"
+                android:layout_marginTop="20dp"
+                android:text="@string/parking" />
+
+
+            <EditText
+                android:id="@+id/editcheck6"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/check5"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="20dp"
+                android:background="@layout/my_edit_text_border"
+                android:inputType="number" />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:id="@+id/textcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/editcheck6"
+                android:text="@string/maximum_number_of_participants" />
+
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editcheck6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/send" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
